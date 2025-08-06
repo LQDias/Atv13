@@ -2,7 +2,6 @@ package academico;
 
 public class Main {
     public static void main(String[] args) {
-        // Instância com construtor sem parâmetros
         Aluno aluno1 = new Aluno();
         aluno1.setNome("Lucas");
         aluno1.setIdade(20);
@@ -13,8 +12,8 @@ public class Main {
 
         System.out.println();
 
-        // Instância com construtor com parâmetros
         Professor professor1 = new Professor("Carla", 40, "987.654.321-00", "Matemática", 5500.00);
         professor1.exibirDados();
     }
 }
+
